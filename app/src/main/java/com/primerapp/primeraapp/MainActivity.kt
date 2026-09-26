@@ -11,9 +11,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         // interface principal (Menú de pedido):
-        setContentView(R.layout.activity_main)
+        //setContentView(R.layout.activity_main)
 
         // interface segunda (Resumen):
-        //setContentView(R.layout.segunda_pantalla)
+        setContentView(R.layout.segunda_pantalla)
     }
 }
